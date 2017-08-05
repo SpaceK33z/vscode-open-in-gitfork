@@ -1,19 +1,19 @@
-# VSC Open in GitTower
+# VSC Open in Fork
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/fabiospampinato/vscode-open-in-gittower/master/resources/logo-128x128.png" alt="Logo">
+	<img src="https://raw.githubusercontent.com/SpaceK33z/vscode-open-in-gitfork/master/resources/logo-128x128.png" alt="Logo">
 </p>
 
-Adds a command for opening the current project in [GitTower](https://www.git-tower.com).
+Adds a command for opening the current project in [Fork](https://git-fork.com/), a Git client currently only for Mac.
 
-This extension has been tested only on macOS, please open an issue if it doesn't work in Windows.
+It is copied from [vscode-open-in-gittower](https://github.com/fabiospampinato/vscode-open-in-gittower), but adjusted for Fork.
 
 ## Install
 
 Run the following in the command palette:
 
 ```shell
-ext install vscode-open-in-gittower
+ext install vscode-open-in-gitfork
 ```
 
 ## Usage
@@ -21,13 +21,5 @@ ext install vscode-open-in-gittower
 It adds 1 command to the command palette:
 
 ```js
-'Open in GitTower' // Opens the current project in GitTower
+'Open in Fork' // Opens the current project in Fork
 ```
-
-## Hits
-
-- **[Projects+](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-projects-plus)**: use this extension for managing your projects, it has GitTower support by default.
-
-## License
-
-MIT © Fabio Spampinato

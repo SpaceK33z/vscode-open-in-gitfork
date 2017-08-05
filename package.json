@@ -1,20 +1,20 @@
 {
-  "name": "vscode-open-in-gittower",
-  "displayName": "Open in GitTower",
-  "description": "Adds a command for opening the current project in GitTower.",
+  "name": "vscode-open-in-gitfork",
+  "displayName": "Open in Fork",
+  "description": "Adds a command for opening the current project in Fork (a Git client).",
   "icon": "resources/logo-128x128.png",
   "version": "1.0.2",
   "license": "MIT",
   "main": "out/src/extension.js",
-  "publisher": "fabiospampinato",
+  "publisher": "spacek33z",
   "activationEvents": [
-    "onCommand:openInGitTower.open"
+    "onCommand:openInGitFork.open"
   ],
   "contributes": {
     "commands": [
       {
-        "command": "openInGitTower.open",
-        "title": "Open in GitTower"
+        "command": "openInGitFork.open",
+        "title": "Open in Fork"
       }
     ]
   },
@@ -26,15 +26,15 @@
     "test": "node ./node_modules/vscode/bin/test"
   },
   "bugs": {
-    "url": "https://github.com/fabiospampinato/vscode-open-in-gittower/issues"
+    "url": "https://github.com/SpaceK33z/vscode-open-in-gitfork/issues"
   },
   "author": {
-    "name": "Fabio Spampinato",
-    "email": "spampinabio@gmail.com"
+    "name": "Kees Kluskens",
+    "email": "kees@webduck.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabiospampinato/vscode-open-in-gittower.git"
+    "url": "https://github.com/SpaceK33z/vscode-open-in-gitfork.git"
   },
   "engines": {
     "vscode": "^1.10.0"
@@ -44,7 +44,7 @@
     "vsc",
     "extension",
     "open in",
-    "gittower"
+    "gitfork"
   ],
   "categories": [
     "Other"
