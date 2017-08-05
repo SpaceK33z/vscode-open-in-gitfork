@@ -12,7 +12,7 @@ const Utils = {
 
   initCommands ( context: vscode.ExtensionContext ) {
 
-    const {commands} = vscode.extensions.getExtension ( 'fabiospampinato.vscode-open-in-gittower' ).packageJSON.contributes;
+    const {commands} = vscode.extensions.getExtension ( 'spacek33z.vscode-open-in-gitfork' ).packageJSON.contributes;
 
     commands.forEach ( ({ command, title }) => {
 
