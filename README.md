@@ -23,3 +23,11 @@ It adds 1 command to the command palette:
 ```js
 'Open in Fork' // Opens the current project in Fork
 ```
+
+The repository is picked as follows:
+
+1. The repository containing the active file
+2. If the workspace has a single repository, that one
+3. In a multi-root workspace with several repositories, a picker lets you choose
+
+An "Open in Fork" button is also added to the Source Control view's title bar, which opens the selected repository.
